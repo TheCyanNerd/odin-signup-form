@@ -16,10 +16,16 @@ body {
 
 #image-panel {
   border: 1px solid red;
+  
+  width: 30%;
+  height: 80%;
 }
 
 #content-panel {
   border: 1px solid blue;
+  
+  width: 70%;
+  height: 80%;
 }
 
 #description,
