@@ -7,47 +7,50 @@
   <title>Odin - Sign up form</title>
 </head>
 <body>
+
   <div id="image-panel">
     <img src="" width=100px height=200px>
     <div id="logo-container"></div>
     <div id="attribution"></div>
   </div>
+  
   <div id="content-panel">
+
     <section id="description">
       <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
       <p>You <em>know</em> you want to.</p>
     </section>
-    <div id="form-container">
-        <form action="" method="post">
-          <fieldset>
-            <legend>Registration Details</legend>
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name">
+    <form action="" method="post">
+      <fieldset id="form-main">
+        <legend>Registration Details</legend>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name">
+        <h1>Let's do this!</h1>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email_address">
-            
-            <label for="pnumber">Phone Number</label>
-            <input type="tel" id="pnumber" name="phone_number">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="first_name">
 
-            <label for="pw">Password</label>
-            <input type="password" id="pw" name="password">
-            
-            <label for="cpw">Confirm Password</label>
-            <input type="password" id="cpw" name="confirm_password">
-          </fieldset>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="last_name">
 
-          <button type="submit">Create Account</button>
-        </form>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email_address">
+        
+        <label for="pnumber">Phone Number</label>
+        <input type="tel" id="pnumber" name="phone_number">
 
-        <p>Already have an account? <a>Log in</a></p>
+        <label for="pw">Password</label>
+        <input type="password" id="pw" name="password">
+        
+        <label for="cpw">Confirm Password</label>
+        <input type="password" id="cpw" name="confirm_password">
+      </fieldset>
 
-      </div>
-    </div>
+      <button type="submit">Create Account</button>
+    </form>
+
+    <p>Already have an account? <a>Log in</a></p>
+
   </div>
 </body>
 </html>
