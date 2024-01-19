@@ -47,6 +47,9 @@ body > div {
 
 #description {
   width: 80%;
+
+  font-size: 1.5rem;
+
   padding-bottom: 2.5rem;
 }
 
@@ -58,6 +61,19 @@ form {
 
 #form-main {
   background-color: white;
+}
+
+#form-main h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#form-main label {
+  font-weight: lighter;
+  font-size: 0.75rem;
+
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
 }
 
 #form-main input {
@@ -72,4 +88,8 @@ form {
 .input-and-label {
   display: flex;
   flex-direction: column;
+}
+
+#log-in-link {
+  font-weight: normal;
 }
