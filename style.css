@@ -25,13 +25,23 @@ body > div {
 
 
 
-#image-panel {
+#image-panel,
+#image-panel > img,
+#logo-container {
   width: 35%;
 }
 
 #image-panel img {
-  width: 100%;
+  position: absolute;
   height: auto;
+}
+
+
+#logo-container {
+  position: absolute;
+  top: 25%;
+  height: 15%;
+  border: 1px solid blue;
 }
 
 
