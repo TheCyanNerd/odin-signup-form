@@ -76,11 +76,11 @@ form {
 }
 
 #form-main label {
-  font-weight: lighter;
-  font-size: 0.75rem;
+  font-weight: normal;
+  font-size: 0.7rem;
 
   text-transform: uppercase;
-  letter-spacing: 0.075rem;
+  letter-spacing: 0.05rem;
 }
 
 #form-main input {
@@ -128,4 +128,9 @@ form {
 
 #log-in-link {
   font-weight: normal;
+}
+
+#log-in-link a {
+  color: #596D48;
+  font-weight: bold;
 }
