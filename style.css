@@ -41,7 +41,7 @@ body > div {
   position: absolute;
   top: 25%;
   height: 15%;
-  border: 1px solid blue;
+  background-color: rgba(0, 0, 0, 50%);
 }
 
 
