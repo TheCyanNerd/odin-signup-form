@@ -133,4 +133,5 @@ form {
 #log-in-link a {
   color: #596D48;
   font-weight: bold;
+  text-decoration: none;
 }
