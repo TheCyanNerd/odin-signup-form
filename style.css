@@ -85,7 +85,14 @@ form {
 
 #form-main input {
   width: 100px;
-  border: 1px solid black;
+  border: 0.1rem solid #E5E7EB;
+  border-radius: 0.15rem;
+  outline: none;
+}
+
+#form-main input:focus {
+  border: 0.1rem solid #8AC0F9;
+  box-shadow: 0.1rem 0.1rem 0.1rem hsla(207, 8%, 47%, 20%);
 }
 
 .input-row {
