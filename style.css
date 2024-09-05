@@ -163,20 +163,35 @@ form {
 
 #logo-container {
   position: absolute;
-  top: 25%;
+  top: 27%;
   height: 15%;
+  width: calc(30% - 2em);
   
   background-color: rgba(0, 0, 0, 50%);
 
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
+  padding: 1em;
+}
+
+@font-face {
+  font-family: NorseBold;
+  src: url(assets/Norse-Bold.otf);
 }
 
 #logo-container > h1 {
   color: white;
-  position: relative;
+
+  font-family: NorseBold;
+  font-size: 6em;
+  font-weight: 500;
+  /* position: relative;
   top: 33%;
-  left: 50%;
+  left: 50%; */
 }
 
 
