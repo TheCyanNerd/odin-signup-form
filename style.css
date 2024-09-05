@@ -90,6 +90,7 @@ form {
 #form-main {
   background-color: white;
   padding: 1rem 1.5rem 1.5rem;
+  box-shadow: grey 0 0.5rem 1rem;
 }
 
 #form-main h1 {
