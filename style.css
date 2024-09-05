@@ -82,12 +82,8 @@ form {
   background-color: white;
   padding: 1rem 1.5rem 1.5rem 2.5em;
   box-shadow: 
-  lightgray 0 0.25rem 0.25rem,
+    lightgray 0 0.25rem 0.25rem,
     whitesmoke 0 -0.25rem 0.25rem;
-
-  /* box-shadow: 
-        inset 0px 11px 8px -10px #CCC,
-        inset 0px -11px 8px -10px #CCC;  */
 }
 
 #form-main h1 {
