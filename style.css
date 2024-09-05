@@ -45,12 +45,12 @@ body > div {
 }
 
 #content-panel > form > button { 
-  margin-left: 3em;
+  margin-left: 2.2725em;
   margin-top: 2.5em;
 }
 
 #content-panel > p#log-in-link {
-  margin-left: 2.5em;
+  margin-left: 2.2725em;
 }
 
 #content-panel > form {
@@ -64,6 +64,7 @@ body > div {
   font-size: 1.5rem;
 
   padding-bottom: 2.5rem;
+  margin-bottom: 1em;
 }
 
 
@@ -128,17 +129,19 @@ form {
   color: white;
 
   font-weight: bold;
+  font-size: 1.1em;
   
   border-radius: 0.5rem;
+  box-shadow: lightgray 0.1em 0.1em 0.1em;
 
-  
-  padding: 0.75rem 2.5rem;
-  margin: 1.25rem 0 1.5rem;
+  padding: 0.75rem 2.75rem;
+  margin-bottom: 2rem;
 }
 
 
 #log-in-link {
   font-weight: normal;
+  font-size: 1.1em;
 }
 
 #log-in-link a {
@@ -189,29 +192,22 @@ form {
   font-family: NorseBold;
   font-size: 6em;
   font-weight: 500;
-  /* position: relative;
-  top: 33%;
-  left: 50%; */
 }
 
-
-
-/* 
-#logo-container {
-  position: absolute;
-  top: 25%;
-  height: 15%;
-  
+/* #attribution {
+  width: 30%;
   background-color: rgba(0, 0, 0, 50%);
-
-  display: flex;
-  flex-direction: row;
-}
-
-#logo-container > h1 {
-  color: white;
-  position: relative;
-  top: 33%;
-  left: 50%;
 } */
 
+/* #attribution > a {
+  position: absolute;
+  bottom: 2%;
+  left: calc(15% - 6em);
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+
+  background-color: rgba(0, 0, 0, 50%);
+  padding: 1rem;
+} */
