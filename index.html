@@ -35,36 +35,36 @@
         <div class="input-row">
           <span class="input-and-label">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name">
+            <input type="text" id="fname" name="first_name" placeholder="John">
           </span>
 
           <span class="input-and-label">
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name">
+            <input type="text" id="lname" name="last_name" placeholder="Doe">
           </span>
         </div>
 
         <div class="input-row">
           <span class="input-and-label">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email_address">
+            <label for="email">*Email</label>
+            <input type="email" id="email" name="email_address" placeholder="name@website.com" required>
           </span>
           
           <span class="input-and-label">
             <label for="pnumber">Phone Number</label>
-            <input type="tel" id="pnumber" name="phone_number">
+            <input type="tel" id="pnumber" name="phone_number" pattern="(\+[0-9])?[0-9]{3}(-)[0-9]{3}(-)[0-9]{4}" placeholder="(+1)234-567-8900">
           </span>
         </div>
 
         <div class="input-row">
           <span class="input-and-label">
-            <label for="pw">Password</label>
-            <input type="password" id="pw" name="password">
+            <label for="pw">*Password</label>
+            <input type="password" id="pw" name="password" minlength="5" maxlength="32" pattern="[\w-]+[0-9]*([\w-]|[0-9])*" placeholder=" " required>
           </span>
             
           <span class="input-and-label">
-            <label for="cpw">Confirm Password</label>
-            <input type="password" id="cpw" name="confirm_password">
+            <label for="cpw">*Confirm Password</label>
+            <input type="password" id="cpw" name="confirm_password" minlength="5" maxlength="32" pattern="[\w-]*[0-9]+([\w-]|[0-9])*" placeholder=" " required>
           </span>
         </div>
       </fieldset>
